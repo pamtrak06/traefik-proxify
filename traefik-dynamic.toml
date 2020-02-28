@@ -12,5 +12,5 @@
       [http.services.wmsortho]
         [http.services.wmsortho.loadBalancer]
           [[http.services.wmsortho.loadBalancer.servers]]
-            url = "http://geo.weather.gc.ca/geomet/"
-            #url = "http://geo.weather.gc.ca/geomet/?lang=en&service=WMS&request=GetCapabilities"
+            url = "https://geo.weather.gc.ca/geomet/"
+            #url = "https://geo.weather.gc.ca/geomet/?lang=en&service=WMS&request=GetCapabilities"
