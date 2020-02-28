@@ -3,7 +3,7 @@
   [http.routers]
       
     [http.routers.wmsortho]
-      entryPoints = ["web"]
+      entryPoints = ["websecure"]
       rule = "Host(`localhost`) && PathPrefix(`/wms`)"
       service = "wmsortho"
       #tls = false
