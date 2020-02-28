@@ -8,7 +8,9 @@
 [entryPoints]
   [entryPoints.web]
     address = ":80"
-
+  [entryPoints.websecure]
+    address = ":443"
+    
 [api]
   dashboard = true
   debug = true
