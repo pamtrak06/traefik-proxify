@@ -1,0 +1,21 @@
+[global]
+  checkNewVersion = true
+  sendAnonymousUsage = false
+
+[log]
+  level = "DEBUG"
+
+[entryPoints]
+  [entryPoints.web]
+    address = ":80"
+
+[api]
+  dashboard = true
+  debug = true
+
+[ping]
+
+[providers]
+  [providers.file]
+    filename = "/etc/traefik/traefik-dynamic.toml"
+    watch = true
